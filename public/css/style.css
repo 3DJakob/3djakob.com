@@ -1,0 +1,38 @@
+
+body {
+  background: white url(../img/3DJakobvit.png) no-repeat fixed top center;
+  background-size: 1280px;
+}
+
+header h1 {
+  text-align: center;
+  padding: 32px 0px;
+}
+
+.container {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0px 24px;
+  background: rgba(255, 255, 255, 0.8);
+  min-height: 2048px;
+}
+
+.nav {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.nav .active a {
+  color: white;
+  background-color: #08C;
+}
+
+.nav i {
+  float: right;
+}
+
+footer {
+  padding-top: 24px;
+  text-align: center;
+  color: gray;
+  font-size: 8pt;
+}

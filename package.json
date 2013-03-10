@@ -1,0 +1,19 @@
+{
+  "name": "3djakob-website",
+  "version": "0.1.0-2",
+  "dependencies": {
+    "express": "3.x",
+    "jade": "0.x"
+  },
+  "subdomain": "3djakob",
+  "domains": [
+    "3djakob.com",
+    "www.3djakob.com"
+  ],
+  "scripts": {
+    "start": "server.coffee"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
