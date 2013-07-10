@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Videos</h1>
+    <div class="thumb">
+      <a href="http://www.youtube.com/watch?v=9tn6YsrcYyI"><img src="thumb/future-military-training.png" /><div class="oneline">Real life FPS training</div></a>
+      <a href="http://www.youtube.com/watch?v=4gtqRomESG4"><img src="thumb/the-force-irl.png" /><div class="oneline">The force IRL</div></a>
+      <a href="http://www.youtube.com/watch?v=mNpEcVMPtK4"><img src="thumb/real-life-wand.png" /><div class="oneline">Real life wand</div></a>
+      <a href="http://www.youtube.com/watch?v=oZfORU9EY0c"><img src="thumb/slowmotion-ballons.png" /><div>Slow motion ballon smashing</div></a>
+      <a href="http://www.youtube.com/watch?v=AtR0BpDC3wc"><img src="thumb/infiltrate.png" /><div>Infiltrate -<br /> short action movie</div></a>
+      <a href="http://www.youtube.com/watch?v=kBotcpTavYo"><img src="thumb/transfiguration.png" /><div>Harry Potter transfiguration spell</div></a>
+      <a><img src="thumb/the-power-of-balance.png" /><div class="oneline">The power of balance</div></a>
+      <a><img src="thumb/384x216.gif" /><div class="oneline">The snatch</div></a>
+      <a><img src="thumb/384x216.gif" /><div class="oneline">Knife throw</div></a>
+      <a><img src="thumb/384x216.gif" /><div class="oneline">Unnatural powers VFX</div></a>
+      <a><img src="thumb/384x216.gif" /><div class="oneline">I hate water</div></a>
+      <a><img src="thumb/384x216.gif" /><div class="oneline">Epic gun fight</div></a>
+      <a><img src="thumb/384x216.gif" /><div class="oneline">Real life invisibility cloak</div></a>
+      <a><img src="thumb/384x216.gif" /><div class="oneline">NXT LEGO alarm clock</div></a>
+      <a><img src="thumb/384x216.gif" /><div>Huge LEGO skyscraper time lapse</div></a>
+      <a><img src="thumb/384x216.gif" /><div class="oneline">LEGO plane crash</div></a>
+      <a href="http://www.youtube.com/watch?v=FMFC62tt1v4"><img src="thumb/night-spy.png" /><div class="oneline">Night spy</div></a>
+      <a href="http://www.youtube.com/watch?v=H2CTzkQYJWE"><img src="thumb/real-life-capture-the-flag.png" /><div>Real life FPS -<br />capture the flag</div></a>
+    </div>
+    <script type="text/javascript">
+      $('.thumb a').on('click', function (e) {
+
+        e.preventDefault();
+
+        var href = $(this).attr('href');
+        var src = href.replace('/watch?v=', '/embed/') + '?autoplay=1';
+        var title = $(this).find('div').text();
+
+        var $video = $('<iframe width="920" height="518" src="' + src + '" frameborder="0" class="youtube" allowfullscreen></iframe>');
+
+        $('.thumb').html('').append($video);
+        $('h1').text(title);
+
+      });
+    </script>
+  </body>
+</html>
