@@ -7,7 +7,6 @@ html, body {
 
 body.main {
   padding-top: 60px;
-  background: #ccc;
   background-image: url("background-web.png");
   background-repeat: no-repeat;
   background-size: cover;
