@@ -1,0 +1,41 @@
+
+.page-videos .videos {
+  padding: 10px 0;
+}
+
+.page-videos .videos:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.page-videos .videos a {
+  display: block;
+  width: 214px;
+  border: 1px solid #ccc;
+  margin: 10px 9px;
+  border-radius: 3px;
+  overflow: hidden;
+  text-decoration: none;
+  float: left;
+}
+
+.page-videos .videos a img {
+  display: block;
+  height: 124px;
+}
+
+.page-videos .videos a span {
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  background-color: #518C8F;
+  color: white;
+  border-top: 1px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 10pt;
+  padding: 0 4px;
+  font-family: 'sarpanch', light sans-serif;
+}

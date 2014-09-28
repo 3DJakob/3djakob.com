@@ -1,0 +1,8 @@
+{
+  "name": "3djakob-website",
+  "version": "3.0.0",
+  "dependencies": {
+    "express": "~4.9.5",
+    "ejs": "~1.0.0"
+  }
+}

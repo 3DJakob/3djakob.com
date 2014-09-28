@@ -1,0 +1,11 @@
+
+.page-faq p {
+  margin: 64px;
+  color: #666;
+}
+
+.page-faq p strong {
+  display: block;
+  color: black;
+  padding-bottom: 4px;
+}

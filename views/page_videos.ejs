@@ -1,0 +1,19 @@
+
+<% include layout_head.ejs %>
+
+<div class="clearfix"></div>
+
+<div class="videos">
+
+  <% videos.forEach(function (video) { %>
+
+    <a href="/video/<%= video.id %>">
+      <img src="http://img.youtube.com/vi/<%= video.id %>/mqdefault.jpg" />
+      <span><%= video.title %></span>
+    </a>
+
+  <% }); %>
+
+</div>
+
+<% include layout_foot.ejs %>

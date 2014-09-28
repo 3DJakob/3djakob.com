@@ -1,0 +1,103 @@
+
+html, body {
+  margin: 0;
+  font-family: 'Exo', sans-serif;
+}
+
+body{
+  background-color: #ccc;
+}
+
+h1, h2 {
+  font-family: 'Sarpanch', sans-serif;
+}
+
+header {
+  margin-top: 30px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header .top {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header .top img {
+  width: 192px;
+  height: 192px;
+  float: left;
+  margin-left: -32px;
+  margin-right: 24px;
+  border-radius: 3px;
+}
+
+header .top h1 {
+  margin: 0;
+  font-size: 36pt;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  color: white;
+}
+
+header .bar {
+  background-color: #518C8F;
+}
+
+header nav {
+  width: 960px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+header nav a {
+  float: left;
+  padding: 0 24px;
+  line-height: 40px;
+  border-right: solid 1px white;
+  color: white;
+  transition-duration: 220ms;
+}
+
+header nav a.youtube {
+  float: right;
+  /*border-left: solid 1px white;*/
+  border-right: 0;
+}
+
+header nav a.youtube:after {
+  content: '';
+  background-image: url(/youtube.png);
+  background-size: cover;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  margin-left: 8px;
+  vertical-align: -7px;
+}
+
+header nav a:first-child {
+  margin-left: -24px;
+}
+
+header nav a:hover {
+  color: #518C8F;
+  background: white;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto 24px;
+  padding: 0 10px;
+  border: 1px solid black;
+  border-top: 0;
+  background: white;
+  border-radius: 0 0 3px 3px;
+}
+
+main .clearfix {
+  clear: both;
+}
