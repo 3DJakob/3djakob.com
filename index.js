@@ -5,6 +5,7 @@ var express = require('express');
 var app = express();
 
 var allVideos = [
+  { id: 'glA5Rcueiqc', title: 'Life of Steve' },
   { id: 'QN529fyiP4Y', title: 'Pool dilemma' },
   { id: 'b4QAy1nQYvw', title: 'Stopwatch' },
   { id: 'lX-xc-do03E', title: '3DJakob\'s airsoft game' },
