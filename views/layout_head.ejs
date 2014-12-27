@@ -32,6 +32,13 @@
       src: local('Exo Bold'), local('Exo-Bold'), url(http://fonts.gstatic.com/s/exo/v4/EzuTFo66hFh-uPBO_c4r-OvvDin1pK8aKteLpeZ5c0A.ttf) format('truetype');
     }
   </style>
+  <% if (page === 'videos') { %>
+  <style type="text/css">
+    <% videos.forEach(function (video, i) { %>
+    .page-videos .videos a:nth-child(<%= (i + 1) %>) { -webkit-animation-delay: <%= (i * 40) %>ms; }
+    <% }); %>
+  </style>
+  <% } %>
 </head>
 <body>
 

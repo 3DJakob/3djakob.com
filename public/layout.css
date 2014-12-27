@@ -43,7 +43,8 @@ header .top h1 {
 }
 
 header .bar {
-  background-color: #518C8F;
+  background-image: -webkit-linear-gradient(90deg,#599b9e,#7DADAD);
+  box-shadow: 1px 1px 19px 0px rgba(50, 50, 50, 0.2);
 }
 
 header nav {
@@ -91,11 +92,11 @@ header nav a:hover {
 main {
   width: 940px;
   margin: 0 auto 24px;
-  padding: 0 10px;
-  border: 1px solid black;
+  padding: 0 10px 1px;
   border-top: 0;
   background: white;
   border-radius: 0 0 3px 3px;
+  box-shadow: 1px 1px 19px 0px rgba(50, 50, 50, 0.3);
 }
 
 main .clearfix {
