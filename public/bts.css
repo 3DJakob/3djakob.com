@@ -31,14 +31,12 @@
   position: relative;
   width: 920px;
   height: 400px;
-  margin: 10px; m   mjjj
-  background-color: black;
+  margin: 10px;
   box-shadow: 1px 1px 19px 0px rgba(50, 50, 50, 0.5);
 }
 
 .page-bts .pic {
   position: absolute;
-  background-color: red;
   background-size: cover;
   background-position: center center;
   /*box-shadow: 1px 1px 19px 0px rgba(50, 50, 50, 0.5);*/
