@@ -22,38 +22,6 @@
   -webkit-animation-fill-mode: both;
 }
 
-.page-videos .videos a:nth-child(1) { -webkit-animation-delay: 0ms; }
-.page-videos .videos a:nth-child(2) { -webkit-animation-delay: 40ms; }
-.page-videos .videos a:nth-child(3) { -webkit-animation-delay: 80ms; }
-.page-videos .videos a:nth-child(4) { -webkit-animation-delay: 120ms; }
-.page-videos .videos a:nth-child(5) { -webkit-animation-delay: 160ms; }
-.page-videos .videos a:nth-child(6) { -webkit-animation-delay: 200ms; }
-.page-videos .videos a:nth-child(7) { -webkit-animation-delay: 240ms; }
-.page-videos .videos a:nth-child(8) { -webkit-animation-delay: 280ms; }
-.page-videos .videos a:nth-child(9) { -webkit-animation-delay: 320ms; }
-.page-videos .videos a:nth-child(10) { -webkit-animation-delay: 360ms; }
-.page-videos .videos a:nth-child(11) { -webkit-animation-delay: 400ms; }
-.page-videos .videos a:nth-child(12) { -webkit-animation-delay: 440ms; }
-.page-videos .videos a:nth-child(13) { -webkit-animation-delay: 480ms; }
-.page-videos .videos a:nth-child(14) { -webkit-animation-delay: 520ms; }
-.page-videos .videos a:nth-child(15) { -webkit-animation-delay: 560ms; }
-.page-videos .videos a:nth-child(16) { -webkit-animation-delay: 600ms; }
-.page-videos .videos a:nth-child(17) { -webkit-animation-delay: 640ms; }
-.page-videos .videos a:nth-child(18) { -webkit-animation-delay: 680ms; }
-.page-videos .videos a:nth-child(19) { -webkit-animation-delay: 720ms; }
-.page-videos .videos a:nth-child(20) { -webkit-animation-delay: 760ms; }
-.page-videos .videos a:nth-child(21) { -webkit-animation-delay: 800ms; }
-.page-videos .videos a:nth-child(22) { -webkit-animation-delay: 840ms; }
-.page-videos .videos a:nth-child(23) { -webkit-animation-delay: 880ms; }
-.page-videos .videos a:nth-child(24) { -webkit-animation-delay: 920ms; }
-.page-videos .videos a:nth-child(25) { -webkit-animation-delay: 960ms; }
-.page-videos .videos a:nth-child(26) { -webkit-animation-delay: 1000ms; }
-.page-videos .videos a:nth-child(27) { -webkit-animation-delay: 1040ms; }
-.page-videos .videos a:nth-child(28) { -webkit-animation-delay: 1080ms; }
-.page-videos .videos a:nth-child(29) { -webkit-animation-delay: 1120ms; }
-.page-videos .videos a:nth-child(30) { -webkit-animation-delay: 1160ms; }
-
-
 @-webkit-keyframes popup {
   0% {
     opacity: 0;
