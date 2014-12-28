@@ -72,6 +72,12 @@ app.get('/faq', function (req, res) {
   });
 });
 
+app.get('/bts', function (req, res) {
+  res.render('page_bts.ejs', {
+    page: 'bts'
+  });
+});
+
 app.listen(4200, function () {
   console.log('http://localhost:4200');
 });
