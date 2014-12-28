@@ -62,15 +62,16 @@ header nav a {
   transition-duration: 220ms;
 }
 
-header nav a.youtube {
+header nav a.youtube,
+header nav a.facebook {
   float: right;
   /*border-left: solid 1px white;*/
   border-right: 0;
 }
 
-header nav a.youtube:after {
+header nav a.youtube:after,
+header nav a.facebook:after {
   content: '';
-  background-image: url(/youtube.png);
   background-size: cover;
   display: inline-block;
   width: 24px;
@@ -78,6 +79,14 @@ header nav a.youtube:after {
   border-radius: 3px;
   margin-left: 8px;
   vertical-align: -7px;
+}
+
+header nav a.youtube:after {
+  background-image: url(/youtube.png);
+}
+
+header nav a.facebook:after {
+  background-image: url(/facebook.png);
 }
 
 header nav a:first-child {
