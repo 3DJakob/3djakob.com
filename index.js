@@ -12,6 +12,7 @@ var allVideos = [
   { id: 'lX-xc-do03E', title: '3DJakob\'s airsoft game' },
   { id: 'wnO6IX-M84w', title: 'Real life Tower Defence before and after' },
   { id: '-W_jD1sV8rg', title: 'Real life Tower Defence' },
+  { id: 'BeMUkHnsQyg', title: 'Prop hunt IRL'},
   { id: 'x6MJ6wseP24', title: 'Don\'t mess with the admin' },
   { id: 'uJOTVfPsw2s', title: 'Courage overflow' },
   { id: 'HaHPjS13qPg', title: 'The last candy piece' },
